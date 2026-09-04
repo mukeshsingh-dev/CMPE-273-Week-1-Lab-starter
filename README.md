@@ -72,7 +72,7 @@ Logs:
 2026-09-03 23:30:05,577 | SERVICE=A | ENDPOINT=/health | STATUS=200 | LATENCY_MS=0.000000000000
 2026-09-03 23:30:05,578 | 127.0.0.1 - - [03/Sep/2026 23:30:05] "GET /health HTTP/1.1" 200 -
 ```
-![Service A health test](docs/screenshots/ServiceA_health.png)
+![Service A health test](docs/screenshot/ServiceA_health.png)
 
 
 ### Test Service A – `/echo`
@@ -95,7 +95,7 @@ Logs
 2026-09-03 23:32:52,484 | 127.0.0.1 - - [03/Sep/2026 23:32:52] "GET /echo?msg=hello HTTP/1.1" 200 -
 ````
 
-![Service A echo test](docs/screenshots/ServiceA_Echo.png)
+![Service A echo test](docs/screenshot/ServiceA_Echo.png)
 
 
 ### Service B
@@ -135,7 +135,7 @@ Logs:
 2026-09-03 23:36:25,872 | SERVICE=B | ENDPOINT=/health | STATUS=200 | LATENCY_MS=0.000000000000
 2026-09-03 23:36:25,872 | 127.0.0.1 - - [03/Sep/2026 23:36:25] "GET /health HTTP/1.1" 200 -
 ```
-![Service A health test](docs/screenshot/ServiceB-health.png)
+![Service A health test](docs/screenshot/ServiceB_Health.png)
 
 
 
